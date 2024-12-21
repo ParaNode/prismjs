@@ -615,7 +615,7 @@ var Prism = (function (_self) {
 				return;
 			}
 
-			if (async && _self.Worker) {
+			if (async && _self.Worker && _.filename) {
 				var worker = new Worker(_.filename);
 
 				worker.onmessage = function (evt) {

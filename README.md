@@ -1,7 +1,13 @@
 # [Prism](https://prismjs.com/)
 
-[![Build Status](https://github.com/PrismJS/prism/workflows/CI/badge.svg)](https://github.com/PrismJS/prism/actions)
-[![npm](https://img.shields.io/npm/dw/prismjs.svg)](https://www.npmjs.com/package/prismjs)
+
+---
+### **NOTE**
+This is just a fork of `prismjs` package to fix worker issue on import and use inside a headless browser or ssr environment
+
+---
+
+[![npm](https://img.shields.io/npm/dw/@paranode/prismjs.svg)](https://www.npmjs.com/package/@paranode/prismjs)
 
 Prism is a lightweight, robust, and elegant syntax highlighting library. It's a spin-off project from [Dabblet](https://dabblet.com/).
 

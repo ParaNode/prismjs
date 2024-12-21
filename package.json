@@ -1,12 +1,13 @@
 {
 	"name": "@paranode/prismjs",
-	"version": "1.29.1",
+	"version": "1.29.2",
 	"description": "Lightweight, robust, elegant syntax highlighting. A spin-off project from Dabblet.",
 	"main": "prism.js",
 	"style": "themes/prism.css",
 	"engines": {
 		"node": ">=6"
 	},
+	"types": "types/index.d.ts",
 	"scripts": {
 		"benchmark": "node benchmark/benchmark.js",
 		"build": "gulp",
